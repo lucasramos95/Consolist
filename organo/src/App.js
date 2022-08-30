@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Banner from './componentes/Banner';
 import Formulario from './componentes/Formulario';
 import Time from './componentes/Time';
+import Footer from './componentes/Footer';
 
 function App() {
 
@@ -63,6 +64,7 @@ function App() {
       colaboradores={colaboradores.filter(colaborador => colaborador.time === time.nome)}
       />)}
       
+      <Footer/>
     </div>
   );
 }
